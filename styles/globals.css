@@ -17,7 +17,7 @@
 }
 
 * {
-  background: linear-gradient(-225deg, #ff057c 0%, #7c64d5 48%, #4cc3ff 100%);
+  /* background: linear-gradient(-225deg, #ff057c 0%, #7c64d5 48%, #4cc3ff 100%); */
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
