@@ -6,6 +6,8 @@ import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from "react-icons/ai";
 import Contact from "./contact";
 import bannerimg from "../assets/banner-image.jpg";
 import { motion } from "framer-motion";
+import Footer from "@/comp/footer";
+import Projects from "@/comp/Projects";
 
 const buttonVariants = {
   hover: {
@@ -87,7 +89,12 @@ export default function Home() {
           </p>
         </div>
       </section>
-
+      <section>
+        <Projects/>
+      </section>
+    <footer>
+      <Footer/>
+    </footer>
 
     </div>
   );

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const footer = () => {
+const Footer = () => {
   return (
     
-<footer className="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+<footer className="bg-white rounded-lg shadow m-4 dark:bg-gray-800 my-8">
     <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
       <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" className="hover:underline">Kofi™</a>. All Rights Reserved.
     </span>
@@ -12,13 +12,11 @@ const footer = () => {
             <a href="#about" className="mr-4 hover:underline md:mr-6 ">About</a>
         </li>
         <li>
-            <a href="#" className="mr-4 hover:underline md:mr-6">github page</a>
+            <a href="https://github.com/tegakay/portfolio_js" className="mr-4 hover:underline md:mr-6">Source Code</a>
         </li>
+        
         <li>
-            <a href="#" className="mr-4 hover:underline md:mr-6">Licensing</a>
-        </li>
-        <li>
-            <a href="#" className="hover:underline">Contact</a>
+            <a href="mailto:kofitega@gmail.com" className="hover:underline">Contact</a>
         </li>
     </ul>
     </div>
@@ -27,4 +25,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer
